@@ -1,0 +1,1 @@
+main: function void () {a:array[] of integer={1,2,3};}

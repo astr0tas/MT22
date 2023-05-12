@@ -1,0 +1,1 @@
+main: function void () {for(i=1,i<=9,i+1) printInteger(5*i);}

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(input, StringType, FuncCall(readString, [])), WhileStmt(BinExpr(||, BinExpr(==, Id(input), StringLit(y)), BinExpr(==, Id(input), StringLit(Y))), BlockStmt([AssignStmt(Id(input), FuncCall(readString, []))]))]))
+])

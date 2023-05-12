@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(uselessFunc, StringType, [], None, BlockStmt([ReturnStmt(StringLit(Zero))]))
+])

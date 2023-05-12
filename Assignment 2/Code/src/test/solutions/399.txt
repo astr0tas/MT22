@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(goo, VoidType, [], None, BlockStmt([]))
+	FuncDecl(foo, VoidType, [InheritParam(a, AutoType)], goo, BlockStmt([]))
+])

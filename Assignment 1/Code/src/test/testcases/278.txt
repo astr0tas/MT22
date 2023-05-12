@@ -1,0 +1,1 @@
+convert_VND_to_USD: function float (n:float) {return n/23795.00;}

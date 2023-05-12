@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(frh, FloatType), VarDecl(cel, FloatType), AssignStmt(Id(frh), FuncCall(readFloat, [])), AssignStmt(Id(cel), BinExpr(/, BinExpr(-, BinExpr(*, Id(frh), FloatLit(5.0)), BinExpr(*, FloatLit(5.0), IntegerLit(32))), IntegerLit(9))), CallStmt(writeFloat, Id(cel))]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [], None, BlockStmt([VarDecl(str, StringType, StringLit(Hello world!)), CallStmt(printString, Id(str)), ReturnStmt(IntegerLit(0))]))
+])

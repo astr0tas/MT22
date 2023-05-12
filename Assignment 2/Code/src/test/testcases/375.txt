@@ -1,0 +1,1 @@
+foo:function float(a:integer,b:float){return a+b;} main: function void () {foo(2,.31e2);}

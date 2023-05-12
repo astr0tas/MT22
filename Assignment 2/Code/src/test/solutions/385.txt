@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(kelvin, FloatType, FuncCall(readFloat, [])), CallStmt(writeFloat, BinExpr(-, Id(kelvin), FloatLit(273.15)))]))
+])

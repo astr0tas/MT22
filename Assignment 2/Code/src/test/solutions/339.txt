@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(writeFloat, UnExpr(-, FloatLit(0.00265)))]))
+])

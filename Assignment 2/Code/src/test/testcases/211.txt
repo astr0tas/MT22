@@ -1,0 +1,1 @@
+calculate_C: function float () {r:float=readFloat(); pi:float=3.14; C:float=2*r*pi; return C;}

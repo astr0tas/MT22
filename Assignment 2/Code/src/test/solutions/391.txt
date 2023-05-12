@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(str, StringType, FuncCall(readString, [])), CallStmt(printString, BinExpr(::, Id(str), StringLit(EOF)))]))
+])

@@ -1,0 +1,1 @@
+main: function integer () {str:string="Hello world!"; printString(str); return 0;}

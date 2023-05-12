@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(get_power_of_2, IntegerType, [Param(n, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(*, Id(n), Id(n)))]))
+])

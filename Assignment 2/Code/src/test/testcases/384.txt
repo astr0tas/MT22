@@ -1,0 +1,1 @@
+main: function void () {celsius:float=readFloat(); writeFloat(celsius+273.15);}

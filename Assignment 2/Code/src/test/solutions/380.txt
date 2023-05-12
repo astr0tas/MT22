@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(writeFloat, BinExpr(/, FloatLit(2.3), FloatLit(3.4)))]))
+])

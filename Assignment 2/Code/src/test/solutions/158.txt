@@ -1,0 +1,1 @@
+get_power_of_m,:,function,integer,(,n,:,integer,,,m,:,integer,),{},<EOF>

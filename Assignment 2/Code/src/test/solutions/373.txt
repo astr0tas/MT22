@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(get_power_of_2, IntegerType, [Param(n, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(*, Id(n), Id(n)))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType, FuncCall(readInteger, [])), VarDecl(arr, ArrayType([IntegerLit(100)], IntegerType)), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), AssignStmt(ArrayCell(Id(arr), [Id(i)]), FuncCall(readInteger, []))), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), AssignStmt(ArrayCell(Id(arr), [Id(i)]), FuncCall(get_power_of_2, [ArrayCell(Id(arr), [Id(i)])])))]))
+])

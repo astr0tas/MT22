@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(print, VoidType, [Param(str, StringType)], None, BlockStmt([CallStmt(printString, Id(str))]))
+])

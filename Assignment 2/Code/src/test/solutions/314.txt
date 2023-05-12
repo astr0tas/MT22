@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [], None, BlockStmt([IfStmt(BooleanLit(True), BlockStmt([]), BlockStmt([])), ReturnStmt(IntegerLit(0))]))
+])

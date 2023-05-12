@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, BooleanType, BinExpr(&&, UnExpr(!, BooleanLit(False)), BooleanLit(True)))]))
+])

@@ -1,0 +1,1 @@
+main: function void() {arr:array[10] of float={.1e-2,2e-3,3e-1};}

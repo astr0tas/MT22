@@ -1,0 +1,4 @@
+main: function void () {str1,str2:string;
+        str1=readString();
+        str2=readString();
+        printString((str1::str2)::"EOF");}

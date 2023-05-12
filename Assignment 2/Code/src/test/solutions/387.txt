@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printInteger, UnExpr(-, BinExpr(+, BinExpr(-, UnExpr(-, IntegerLit(203)), IntegerLit(33)), IntegerLit(2))))]))
+])

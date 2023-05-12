@@ -1,0 +1,1 @@
+main: function void () {a:array[5] of integer={1+1,2*3,5-1,4/2,9%5};}

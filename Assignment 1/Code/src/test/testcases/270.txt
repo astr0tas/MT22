@@ -1,0 +1,1 @@
+get_power_of_3:function integer(n:integer){return n*n*n;}

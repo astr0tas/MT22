@@ -1,0 +1,1 @@
+uselessFunc:function integer(){return 0;}

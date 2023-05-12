@@ -1,0 +1,1 @@
+writeFloat(3.56);

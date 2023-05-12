@@ -1,0 +1,1 @@
+main: function void () {arr1,arr2:array[10] of integer; for(i=0,i<10,i+1) arr1[i]=readInteger(); for(i=0,i<10,i+1) arr2[i]=arr1[9-i]; for(i=0,i<10,i+1){printInteger(arr1[i]);} for(i=0,i<10,i+1){printInteger(arr2[i]);}}

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType, FuncCall(readInteger, [])), IfStmt(BinExpr(&&, BinExpr(==, BinExpr(%, Id(n), IntegerLit(5)), IntegerLit(0)), BinExpr(!=, BinExpr(%, Id(n), IntegerLit(10)), IntegerLit(0))), CallStmt(printString, StringLit(n is only divisible by 5!)))]))
+])
